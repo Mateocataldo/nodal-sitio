@@ -81,7 +81,8 @@ Puede ser una sola página con secciones. Debe verse bien en celular.
 ## Decisiones ya tomadas con Mateo (octubre 2026)
 - Contacto: formulario (nombre, apellido, email, descripción) que llega por mail, y el mail mateojcataldo@gmail.com visible en el sitio.
 - Idiomas: español e inglés (botón ES/EN; el español está en el HTML y el inglés en `public/js/i18n.js`).
-- Hosting: Netlify (plan gratis, permite uso comercial; Vercel gratis no lo permite). Dominio: lo resuelve Mateo.
+- Dominio: **nodaldevelopments.com**, comprado en Hostinger.
+- Hosting: **Hostinger, plan Business** de Mateo, como app Node.js (`npm start` → `server.js`) conectada al repo de GitHub `Mateocataldo/nodal-sitio`. El plan Business vence el 2026-11-22: recordarle renovarlo. En ese plan también está su otro sitio, wicklowtecdevelopment.com. Netlify quedó como prueba anterior y no se usa.
 - Agregados aprobados: animación de portada (puntos que forman la N al bajar) y "Diagnóstico con IA" (Claude) que pregunta primero y después muestra el proceso como mapa.
 - La IA del diagnóstico está limitada: **solo diagnostica, nunca da soluciones, herramientas ni pasos**, aunque se lo pidan. Al terminar ofrece enviarlo; si la persona acepta, le pide nombre, apellido, email y empresa (opcional) dentro del chat y manda a Mateo un mail con datos, resumen, diagnóstico y conversación completa (`api/enviar-diagnostico.js`).
 - Logo: redibujado en SVG (`public/assets/logo-nodal-simbolo.svg`) a partir del PNG.

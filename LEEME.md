@@ -17,8 +17,16 @@ Copiá `.env.example` como `.env` y completá:
 
 **Nunca compartas ni subas el archivo `.env`.**
 
-## Publicarlo en internet
-Está preparado para **Netlify** (plan gratis, permite uso comercial):
+## Publicarlo en internet (Hostinger, el que usamos)
+El sitio vive en **Hostinger (plan Business)** con el dominio **nodaldevelopments.com**:
+1. hPanel → **Crear sitio** → app **Node.js** → importar desde GitHub `Mateocataldo/nodal-sitio`, rama `main`.
+2. Node 22 o 24 · instalación `npm install` · inicio `npm start` (corre `server.js`).
+3. Variables de entorno: `ANTHROPIC_API_KEY`, `RESEND_API_KEY` y, cuando el dominio esté verificado en Resend, `CONTACTO_REMITENTE=Nodal <hola@nodaldevelopments.com>`.
+4. Conectar el dominio nodaldevelopments.com a la app.
+5. Cada cambio subido a GitHub se vuelve a publicar desde hPanel.
+
+## Alternativa: Netlify
+También está preparado para **Netlify** (plan gratis, permite uso comercial):
 1. Subí esta carpeta a un repositorio privado de GitHub.
 2. En netlify.com: **Add new project → Import an existing project → GitHub** → elegí el repositorio. La configuración se lee sola de `netlify.toml`.
 3. Antes de publicar, en **Environment variables** cargá `ANTHROPIC_API_KEY` y `RESEND_API_KEY` (las mismas del `.env`).
