@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298 298" role="img" aria-label="Nodal">
+  <path d="M40 40V258M40 40L258 258V40" fill="none" stroke="#2446F6" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="40" cy="40" r="40" fill="#2446F6"/>
+  <circle cx="40" cy="258" r="40" fill="#2446F6"/>
+  <circle cx="258" cy="258" r="40" fill="#2446F6"/>
+  <circle cx="258" cy="40" r="40" fill="#009E94"/>
+</svg>

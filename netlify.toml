@@ -1,0 +1,8 @@
+# Configuración para publicar en Netlify
+[build]
+  publish = "public"
+  command = "npm install"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"

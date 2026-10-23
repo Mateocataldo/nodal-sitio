@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nodal · Tecnología que se adapta a las personas</title>
+  <meta name="description" content="Nodal hace software, automatizaciones inteligentes, sitios web y bases de datos. Ayudamos a que la inteligencia artificial funcione de verdad en tu negocio.">
+  <meta name="theme-color" content="#0E1B2C">
+  <meta property="og:title" content="Nodal · Tecnología que se adapta a las personas">
+  <meta property="og:description" content="Software, automatizaciones inteligentes, sitios web y bases de datos. Primero entendemos cómo trabaja tu equipo; después diseñamos la solución.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/logo-nodal-simbolo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido" data-i18n="a11y.saltar">Saltar al contenido</a>
+
+  <!-- ============ ENCABEZADO ============ -->
+  <header class="encabezado" id="encabezado">
+    <div class="contenedor encabezado__fila">
+      <a class="logo" href="#inicio" aria-label="Nodal, inicio">
+        <svg class="logo__simbolo" viewBox="0 0 298 298" aria-hidden="true">
+          <path d="M40 40V258M40 40L258 258V40" fill="none" stroke="#2446F6" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="40" cy="40" r="40" fill="#2446F6"/><circle cx="40" cy="258" r="40" fill="#2446F6"/>
+          <circle cx="258" cy="258" r="40" fill="#2446F6"/><circle cx="258" cy="40" r="40" fill="#009E94"/>
+        </svg>
+        <span class="logo__texto">nodal</span>
+      </a>
+
+      <nav class="menu" id="menu" aria-label="Principal">
+        <a href="#servicios" data-i18n="nav.servicios">Qué hacemos</a>
+        <a href="#metodo" data-i18n="nav.metodo">Cómo trabajamos</a>
+        <a href="#origen" data-i18n="nav.origen">Por qué Nodal</a>
+        <a href="#diagnostico" data-i18n="nav.diagnostico">Diagnóstico IA</a>
+        <a href="#contacto" class="menu__solo-movil" data-i18n="nav.contacto">Contacto</a>
+      </nav>
+
+      <div class="encabezado__acciones">
+        <div class="idioma" role="group" aria-label="Idioma / Language">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="boton boton--chico" href="#contacto" data-i18n="nav.cta">Hablemos</a>
+        <button class="hamburguesa" type="button" aria-controls="menu" aria-expanded="false" data-i18n-aria="nav.abrir" aria-label="Abrir menú">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ============ INICIO: la red que se convierte en la N ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__pegado">
+        <canvas class="hero__lienzo" id="lienzo-hero" aria-hidden="true"></canvas>
+        <div class="contenedor hero__contenido">
+          <p class="hero__ceja" data-i18n="hero.ceja">Software · Automatizaciones · IA</p>
+          <h1 class="hero__titulo" id="hero-titulo" data-i18n-html="hero.titulo">Tecnología que se adapta <span class="acento">a las personas.</span></h1>
+          <p class="hero__bajada" data-i18n="hero.bajada">Hacemos software, automatizaciones, sitios web y bases de datos. Y ayudamos a que la inteligencia artificial funcione de verdad en tu negocio.</p>
+          <div class="hero__botones">
+            <a class="boton" href="#diagnostico" data-i18n="hero.cta1">Probá el diagnóstico con IA</a>
+            <a class="boton boton--fantasma" href="#contacto" data-i18n="hero.cta2">Contanos tu caso</a>
+          </div>
+        </div>
+        <div class="hero__pista" id="pista-scroll" aria-hidden="true">
+          <span data-i18n="hero.pista">Bajá y mirá cómo se conecta todo</span>
+          <i></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EL PROBLEMA ============ -->
+    <section class="seccion seccion--clara" id="problema" aria-labelledby="problema-titulo">
+      <div class="contenedor">
+        <p class="ceja revelar" data-i18n="problema.ceja">El problema</p>
+        <h2 class="titulo revelar" id="problema-titulo" data-i18n="problema.titulo">Por qué fallan muchas soluciones con IA</h2>
+        <div class="grilla-3">
+          <article class="tarjeta revelar">
+            <span class="numero">1</span>
+            <h3 data-i18n="problema.c1.t">Parten de la tecnología</h3>
+            <p data-i18n="problema.c1.p">Eligen una herramienta primero y después intentan que encaje en el negocio.</p>
+          </article>
+          <article class="tarjeta revelar">
+            <span class="numero">2</span>
+            <h3 data-i18n="problema.c2.t">No entienden el problema</h3>
+            <p data-i18n="problema.c2.p">Nadie analiza cómo funciona realmente el proceso ni dónde se traba.</p>
+          </article>
+          <article class="tarjeta revelar">
+            <span class="numero">3</span>
+            <h3 data-i18n="problema.c3.t">No miran a las personas</h3>
+            <p data-i18n="problema.c3.p">No tienen en cuenta cómo trabaja el equipo, cuánto tiempo tiene ni sus costumbres.</p>
+          </article>
+        </div>
+        <p class="resultado revelar" data-i18n-html="problema.resultado"><strong>Resultado:</strong> soluciones que nadie usa, que complican más de lo que ayudan y que terminan abandonadas.</p>
+      </div>
+    </section>
+
+    <!-- ============ CONVICCIÓN (palabras que se encienden con el scroll) ============ -->
+    <section class="seccion seccion--oscura conviccion" aria-labelledby="conviccion-titulo">
+      <div class="contenedor">
+        <p class="ceja ceja--linea" data-i18n="conviccion.ceja">Nuestra convicción</p>
+        <h2 class="conviccion__frase" id="conviccion-titulo" data-i18n-html="conviccion.frase">Un problema mal entendido no se resuelve con <span class="acento">tecnología.</span></h2>
+      </div>
+    </section>
+
+    <!-- ============ DE DÓNDE NACE NODAL ============ -->
+    <section class="seccion seccion--clara" id="origen" aria-labelledby="origen-titulo">
+      <div class="contenedor">
+        <p class="ceja revelar" data-i18n="origen.ceja">Nuestras raíces</p>
+        <h2 class="titulo revelar" id="origen-titulo" data-i18n="origen.titulo">De dónde nace Nodal</h2>
+        <div class="origen">
+          <ol class="historia">
+            <li class="historia__paso revelar">
+              <span class="historia__marca" aria-hidden="true"></span>
+              <p class="historia__etiqueta" data-i18n="origen.h1.t">El atraso</p>
+              <p data-i18n-html="origen.h1.p">Un empresario del rubro administrativo, conocido nuestro, tenía mucho atraso en el <strong>análisis de documentación</strong>.</p>
+            </li>
+            <li class="historia__paso revelar">
+              <span class="historia__marca" aria-hidden="true"></span>
+              <p class="historia__etiqueta" data-i18n="origen.h2.t">La herramienta</p>
+              <p data-i18n-html="origen.h2.p">Para resolverlo, puso en marcha un software que descargaba los documentos y los analizaba. <strong>Era potente, pero difícil de usar.</strong></p>
+            </li>
+            <li class="historia__paso revelar">
+              <span class="historia__marca" aria-hidden="true"></span>
+              <p class="historia__etiqueta" data-i18n="origen.h3.t">El freno</p>
+              <p data-i18n="origen.h3.p">Había que capacitar a la gente justo en el momento de más trabajo, cuando nadie tenía tiempo para aprender algo nuevo.</p>
+            </li>
+          </ol>
+          <div class="aprendizajes" id="aprendizajes">
+            <p class="ceja" data-i18n="origen.aprendimos">Lo que aprendimos</p>
+            <ol>
+              <li><span class="numero">1</span><p data-i18n="origen.a1">Una herramienta que frena el trabajo en vez de acelerarlo no optimiza nada.</p></li>
+              <li><span class="numero">2</span><p data-i18n="origen.a2">Antes de diseñar una solución hay que entender cómo funciona el proceso de cada empresa.</p></li>
+              <li><span class="numero">3</span><p data-i18n="origen.a3">La mejor solución es la que se adapta a cómo ya trabaja la gente.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUÉ HACEMOS ============ -->
+    <section class="seccion seccion--blanca" id="servicios" aria-labelledby="servicios-titulo">
+      <div class="contenedor">
+        <p class="ceja revelar" data-i18n="servicios.ceja">Servicios</p>
+        <h2 class="titulo revelar" id="servicios-titulo" data-i18n="servicios.titulo">Qué hacemos</h2>
+        <div class="servicios">
+          <article class="servicio servicio--principal revelar">
+            <svg class="servicio__red" viewBox="0 0 220 160" aria-hidden="true">
+              <g class="red-lineas"><path d="M30 120L80 50L150 90L190 30M80 50L120 20M150 90L170 140M30 120L110 140L150 90"/></g>
+              <g class="red-nodos"><circle cx="30" cy="120" r="4"/><circle cx="120" cy="20" r="4"/><circle cx="190" cy="30" r="4"/><circle cx="110" cy="140" r="4"/><circle cx="170" cy="140" r="4"/></g>
+              <circle class="nodo-azul" cx="80" cy="50" r="9"/><circle class="nodo-verde" cx="150" cy="90" r="9"/>
+            </svg>
+            <p class="ceja" data-i18n="servicios.principal">Servicio principal</p>
+            <h3 data-i18n="servicios.s1.t">Software e IA</h3>
+            <p data-i18n="servicios.s1.p">Soluciones a medida que mejoran los procesos de un negocio y encajan con cómo trabaja su gente.</p>
+          </article>
+          <article class="servicio revelar">
+            <span class="servicio__icono" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M10 24a14 14 0 0 1 24-9.9M38 24a14 14 0 0 1-24 9.9"/><path d="M34 8v6.5h-6.5M14 40v-6.5h6.5"/><circle cx="24" cy="24" r="3.5"/></svg>
+            </span>
+            <h3 data-i18n="servicios.s2.t">Automatizaciones inteligentes</h3>
+            <p data-i18n="servicios.s2.p">Tareas repetitivas que se resuelven solas con ayuda de IA, usando las herramientas que la gente ya usa.</p>
+          </article>
+          <article class="servicio revelar">
+            <span class="servicio__icono" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><rect x="6" y="9" width="36" height="30" rx="5"/><path d="M6 17h36"/><circle cx="11.5" cy="13" r="1.2"/><circle cx="15.5" cy="13" r="1.2"/><path d="M19 27l-4 3 4 3M29 27l4 3-4 3"/></svg>
+            </span>
+            <h3 data-i18n="servicios.s3.t">Sitios web</h3>
+            <p data-i18n="servicios.s3.p">Diseñamos y programamos páginas web para negocios y proyectos.</p>
+          </article>
+          <article class="servicio revelar">
+            <span class="servicio__icono" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><ellipse cx="24" cy="11" rx="14" ry="5"/><path d="M10 11v13c0 2.8 6.3 5 14 5s14-2.2 14-5V11M10 24v13c0 2.8 6.3 5 14 5s14-2.2 14-5V24"/></svg>
+            </span>
+            <h3 data-i18n="servicios.s4.t">Bases de datos</h3>
+            <p data-i18n="servicios.s4.p">Para ordenar la información de un negocio. Es un área en la que nos seguimos formando.</p>
+          </article>
+        </div>
+        <p class="nota revelar" data-i18n="servicios.nota">Y vamos a ir sumando más áreas a medida que Nodal crezca.</p>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO TRABAJAMOS ============ -->
+    <section class="seccion seccion--clara" id="metodo" aria-labelledby="metodo-titulo">
+      <div class="contenedor">
+        <p class="ceja revelar" data-i18n="metodo.ceja">Nuestro método</p>
+        <h2 class="titulo revelar" id="metodo-titulo" data-i18n="metodo.titulo">Cómo trabajamos</h2>
+        <div class="metodo" id="metodo-recorrido">
+          <div class="metodo__pista" aria-hidden="true"><div class="metodo__relleno" id="metodo-relleno"></div></div>
+          <ol class="metodo__pasos">
+            <li class="paso"><span class="paso__nodo">1</span><h3 data-i18n="metodo.p1.t">Observar</h3><p data-i18n="metodo.p1.p">Miramos cómo trabaja el negocio en el día a día.</p></li>
+            <li class="paso"><span class="paso__nodo">2</span><h3 data-i18n="metodo.p2.t">Entender</h3><p data-i18n="metodo.p2.p">Identificamos cuál es el problema real y quién lo vive.</p></li>
+            <li class="paso"><span class="paso__nodo">3</span><h3 data-i18n="metodo.p3.t">Diseñar</h3><p data-i18n="metodo.p3.p">Pensamos una solución que encaje con su forma de trabajar.</p></li>
+            <li class="paso"><span class="paso__nodo">4</span><h3 data-i18n="metodo.p4.t">Implementar</h3><p data-i18n="metodo.p4.p">Armamos algo simple, que no obligue a aprender mucho.</p></li>
+            <li class="paso"><span class="paso__nodo">5</span><h3 data-i18n="metodo.p5.t">Ajustar</h3><p data-i18n="metodo.p5.p">Medimos, escuchamos y mejoramos sobre la marcha.</p></li>
+          </ol>
+        </div>
+        <p class="principio revelar" data-i18n-html="metodo.principio"><strong>Nuestro principio:</strong> primero entendemos el problema y a las personas. Recién después diseñamos la solución.</p>
+      </div>
+    </section>
+
+    <!-- ============ DIAGNÓSTICO CON IA ============ -->
+    <section class="seccion seccion--oscura diagnostico" id="diagnostico" aria-labelledby="diag-titulo">
+      <div class="contenedor">
+        <div class="diagnostico__intro">
+          <p class="ceja ceja--linea" data-i18n="diag.ceja">Diagnóstico con IA</p>
+          <h2 class="titulo titulo--claro" id="diag-titulo" data-i18n="diag.titulo">Contanos qué te frena. Lo miramos como lo haría Nodal.</h2>
+          <p class="diagnostico__bajada" data-i18n="diag.bajada">No te vende nada ni te da recetas mágicas. Te hace algunas preguntas, te muestra tu proceso como un mapa con los puntos donde se traba y, si querés, se lo pasa al equipo de Nodal para que te contacte. Te lleva un par de minutos.</p>
+        </div>
+
+        <div class="diag">
+          <!-- Conversación -->
+          <div class="diag__panel diag__charla">
+            <div class="diag__cabecera">
+              <span class="diag__estado"><i></i><span id="diag-progreso" data-i18n="diag.listo">Listo para escucharte</span></span>
+              <button type="button" class="diag__reiniciar" id="diag-reiniciar" hidden data-i18n="diag.reiniciar">Empezar de nuevo</button>
+            </div>
+            <div class="diag__mensajes" id="diag-mensajes" aria-live="polite">
+              <div class="burbuja burbuja--nodal">
+                <p data-i18n="diag.saludo">Hola. Contame con tus palabras qué tarea o proceso de tu negocio te está costando más de lo que debería.</p>
+              </div>
+            </div>
+            <div class="diag__sugerencias" id="diag-sugerencias">
+              <button type="button" class="chip" data-i18n="diag.ej1">Cargamos datos a mano todos los días</button>
+              <button type="button" class="chip" data-i18n="diag.ej2">Respondemos las mismas consultas una y otra vez</button>
+              <button type="button" class="chip" data-i18n="diag.ej3">La información está desparramada en planillas</button>
+            </div>
+            <form class="diag__form" id="diag-form">
+              <label class="visualmente-oculto" for="diag-texto" data-i18n="diag.etiqueta">Tu respuesta</label>
+              <textarea id="diag-texto" rows="2" maxlength="1200" required data-i18n-placeholder="diag.placeholder" placeholder="Por ejemplo: tenemos mucho atraso cargando facturas y respondiendo consultas…"></textarea>
+              <button type="submit" class="boton boton--icono" data-i18n-aria="diag.enviar" aria-label="Enviar">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+              </button>
+            </form>
+            <p class="diag__aviso" data-i18n="diag.aviso">Lo que escribís se usa solo para este diagnóstico, y le llega a Nodal únicamente si elegís enviarlo.</p>
+          </div>
+
+          <!-- Mapa del proceso -->
+          <div class="diag__panel diag__mapa" id="diag-mapa">
+            <div class="mapa-vacio" id="mapa-vacio">
+              <svg viewBox="0 0 200 140" aria-hidden="true">
+                <path d="M20 110L70 40L130 80L180 25M70 40L100 15M130 80L150 125M20 110L100 125L130 80"/>
+                <circle cx="20" cy="110" r="4"/><circle cx="100" cy="15" r="4"/><circle cx="180" cy="25" r="4"/><circle cx="100" cy="125" r="4"/><circle cx="150" cy="125" r="4"/>
+                <circle class="nodo-azul" cx="70" cy="40" r="8"/><circle class="nodo-verde" cx="130" cy="80" r="8"/>
+              </svg>
+              <p data-i18n="diag.mapaVacio">Acá va a aparecer el mapa de tu proceso.</p>
+            </div>
+            <div class="resultado-diag" id="resultado-diag" hidden></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="seccion seccion--clara contacto" id="contacto" aria-labelledby="contacto-titulo">
+      <div class="contenedor contacto__grilla">
+        <div class="contacto__texto">
+          <p class="ceja revelar" data-i18n="contacto.ceja">Contacto</p>
+          <h2 class="titulo revelar" id="contacto-titulo" data-i18n="contacto.titulo">Construyamos con Nodal.</h2>
+          <p class="contacto__bajada revelar" data-i18n="contacto.bajada">Contanos qué te gustaría resolver. Leemos cada mensaje y te escribimos nosotros.</p>
+          <div class="mail revelar">
+            <p class="mail__etiqueta" data-i18n="contacto.directo">¿Preferís escribirnos directo?</p>
+            <div class="mail__fila">
+              <a class="mail__direccion" href="mailto:mateojcataldo@gmail.com">mateojcataldo@gmail.com</a>
+              <button type="button" class="mail__copiar" id="copiar-mail" data-i18n="contacto.copiar">Copiar</button>
+            </div>
+          </div>
+        </div>
+
+        <form class="formulario revelar" id="form-contacto" novalidate>
+          <div class="campo-doble">
+            <div class="campo">
+              <label for="c-nombre" data-i18n="contacto.nombre">Nombre</label>
+              <input id="c-nombre" name="nombre" autocomplete="given-name" required maxlength="80">
+            </div>
+            <div class="campo">
+              <label for="c-apellido" data-i18n="contacto.apellido">Apellido</label>
+              <input id="c-apellido" name="apellido" autocomplete="family-name" required maxlength="80">
+            </div>
+          </div>
+          <div class="campo">
+            <label for="c-email" data-i18n="contacto.email">Email</label>
+            <input id="c-email" name="email" type="email" autocomplete="email" required maxlength="160">
+          </div>
+          <div class="campo">
+            <label for="c-mensaje" data-i18n="contacto.mensaje">¿Qué te gustaría resolver?</label>
+            <textarea id="c-mensaje" name="mensaje" rows="6" required maxlength="4000" data-i18n-placeholder="contacto.mensajePh" placeholder="Contanos un poco sobre tu negocio y qué te está costando."></textarea>
+          </div>
+          <!-- Campo trampa para bots: las personas no lo ven -->
+          <div class="trampa" aria-hidden="true">
+            <label for="c-web">Sitio web</label>
+            <input id="c-web" name="sitio_web" tabindex="-1" autocomplete="off">
+          </div>
+          <button type="submit" class="boton boton--ancho" data-i18n="contacto.enviar">Enviar mensaje</button>
+          <p class="formulario__estado" id="form-estado" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__fila">
+      <a class="logo" href="#inicio" aria-label="Nodal, inicio">
+        <svg class="logo__simbolo" viewBox="0 0 298 298" aria-hidden="true">
+          <path d="M40 40V258M40 40L258 258V40" fill="none" stroke="#2446F6" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="40" cy="40" r="40" fill="#2446F6"/><circle cx="40" cy="258" r="40" fill="#2446F6"/>
+          <circle cx="258" cy="258" r="40" fill="#2446F6"/><circle cx="258" cy="40" r="40" fill="#009E94"/>
+        </svg>
+        <span class="logo__texto">nodal</span>
+      </a>
+      <p class="pie__frase" data-i18n="pie.frase">Tecnología que se adapta a las personas.</p>
+      <a class="pie__mail" href="mailto:mateojcataldo@gmail.com">mateojcataldo@gmail.com</a>
+      <p class="pie__copy">© <span id="anio">2026</span> Nodal</p>
+    </div>
+  </footer>
+</body>
+</html>
