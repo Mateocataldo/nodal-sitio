@@ -421,7 +421,7 @@ button { font: inherit; cursor: pointer; }
 .mail { margin-top: 40px; padding: 24px 26px; border-radius: var(--radio); background: var(--blanco); border: 1px solid var(--borde); }
 .mail__etiqueta { font-size: 14px; color: var(--texto-2); margin-bottom: 6px; }
 .mail__fila { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.mail__direccion { font-size: clamp(17px, 2vw, 21px); font-weight: 600; color: var(--texto); text-decoration: none; word-break: break-all; }
+.mail__direccion { font-size: clamp(15px, 4.1vw, 21px); font-weight: 600; color: var(--texto); text-decoration: none; overflow-wrap: anywhere; }
 .mail__direccion:hover { color: var(--verde-oscuro); }
 .mail__copiar {
   border: 1px solid var(--borde); background: var(--fondo-claro); color: var(--texto); font-size: 14px; font-weight: 500;
@@ -521,6 +521,7 @@ button { font: inherit; cursor: pointer; }
   .servicio--principal { padding: 28px 24px; }
   .servicio__red { width: 52%; right: 16px; top: 16px; }
   .campo-doble { grid-template-columns: 1fr; }
+  .mail { padding: 20px; }
   .diag__mapa { padding: 24px 20px; }
   .burbuja { max-width: 94%; }
   .datos__fila { grid-template-columns: 1fr; }
