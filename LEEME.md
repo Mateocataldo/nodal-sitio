@@ -13,7 +13,7 @@ Sin claves, el sitio funciona igual:
 ## Activar lo real
 Copiá `.env.example` como `.env` y completá:
 - `ANTHROPIC_API_KEY`: la clave de la API de Claude (console.anthropic.com). Con esto el diagnóstico pasa a ser IA de verdad. Cada diagnóstico cuesta unos centavos de dólar.
-- `RESEND_API_KEY`: la clave de resend.com (gratis para pocos mails). Con esto el formulario te llega a mateojcataldo@gmail.com. Cuando tengas dominio, se configura en Resend y se pone en `CONTACTO_REMITENTE` (por ejemplo `Nodal <hola@nodal.com.ar>`).
+- `RESEND_API_KEY`: la clave de resend.com (gratis para pocos mails). Con esto los formularios llegan a mcataldo@nodaldevelopments.com, enviados desde web@nodaldevelopments.com (el dominio ya está verificado en Resend).
 
 **Nunca compartas ni subas el archivo `.env`.**
 
@@ -21,7 +21,7 @@ Copiá `.env.example` como `.env` y completá:
 El sitio vive en **Hostinger (plan Business)** con el dominio **nodaldevelopments.com**:
 1. hPanel → **Crear sitio** → app **Node.js** → importar desde GitHub `Mateocataldo/nodal-sitio`, rama `main`.
 2. Node 22 o 24 · instalación `npm install` · inicio `npm start` (corre `server.js`).
-3. Variables de entorno: `ANTHROPIC_API_KEY`, `RESEND_API_KEY` y, cuando el dominio esté verificado en Resend, `CONTACTO_REMITENTE=Nodal <hola@nodaldevelopments.com>`.
+3. Variables de entorno: `ANTHROPIC_API_KEY`, `RESEND_API_KEY` (destino y remitente ya vienen configurados para nodaldevelopments.com).
 4. Conectar el dominio nodaldevelopments.com a la app.
 5. Cada cambio subido a GitHub se vuelve a publicar desde hPanel.
 

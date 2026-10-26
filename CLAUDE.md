@@ -67,7 +67,7 @@ Claro, cercano y humano, como una persona explicándole a otra. Frases cortas. S
 - Tipografía: **Poppins** (Light, Regular, Medium, Bold). Títulos en Bold, cuerpo en Regular.
 - Estilo: limpio, mucho aire, tarjetas con esquinas redondeadas, secciones claras alternadas con secciones en azul marino. Motivo decorativo de nodos conectados por líneas finas (puntos azul y verde azulado sobre líneas grises). Tiene que verse moderno y sobrio, no recargado.
 - Logo en `assets/`: `logo-nodal-fondo-claro.png` (texto navy, para fondos claros) y `logo-nodal-fondo-oscuro.png` (texto blanco, para fondos oscuros). Ambos con fondo transparente. Son PNG, no vectoriales: si Mateo consigue el original en SVG, usarlo.
-- Contacto de la empresa (visible en el sitio): mcataldo@nodaldevelopments.com. Los formularios todavía llegan a mateojcataldo@gmail.com hasta verificar el dominio en Resend.
+- Contacto de la empresa: mcataldo@nodaldevelopments.com (visible en el sitio). Formularios y diagnósticos llegan ahí, enviados desde web@nodaldevelopments.com (dominio verificado en Resend, región São Paulo, solo envío: "Enable Receiving" apagado para no romper el mail de Hostinger).
 
 ## Estructura sugerida (a validar con Mateo)
 1. **Inicio:** frase de marca, qué hacemos en una línea, llamado a contactar.
