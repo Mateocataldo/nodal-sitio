@@ -67,7 +67,7 @@ Claro, cercano y humano, como una persona explicándole a otra. Frases cortas. S
 - Tipografía: **Poppins** (Light, Regular, Medium, Bold). Títulos en Bold, cuerpo en Regular.
 - Estilo: limpio, mucho aire, tarjetas con esquinas redondeadas, secciones claras alternadas con secciones en azul marino. Motivo decorativo de nodos conectados por líneas finas (puntos azul y verde azulado sobre líneas grises). Tiene que verse moderno y sobrio, no recargado.
 - Logo en `assets/`: `logo-nodal-fondo-claro.png` (texto navy, para fondos claros) y `logo-nodal-fondo-oscuro.png` (texto blanco, para fondos oscuros). Ambos con fondo transparente. Son PNG, no vectoriales: si Mateo consigue el original en SVG, usarlo.
-- Contacto de la empresa: mcataldo@nodaldevelopments.com (visible en el sitio). Formularios y diagnósticos llegan ahí, enviados desde web@nodaldevelopments.com (dominio verificado en Resend, región São Paulo, solo envío: "Enable Receiving" apagado para no romper el mail de Hostinger).
+- Mail visible en el sitio: info@nodaldevelopments.com. Formularios y diagnósticos llegan a mcataldo@nodaldevelopments.com, enviados desde web@nodaldevelopments.com (dominio verificado en Resend, región São Paulo, solo envío: "Enable Receiving" apagado para no romper el mail de Hostinger).
 
 ## Estructura sugerida (a validar con Mateo)
 1. **Inicio:** frase de marca, qué hacemos en una línea, llamado a contactar.
@@ -79,7 +79,7 @@ Claro, cercano y humano, como una persona explicándole a otra. Frases cortas. S
 Puede ser una sola página con secciones. Debe verse bien en celular.
 
 ## Decisiones ya tomadas con Mateo (octubre 2026)
-- Contacto: formulario (nombre, apellido, email, descripción) que llega por mail, y el mail mcataldo@nodaldevelopments.com visible en el sitio.
+- Contacto: formulario (nombre, apellido, email, descripción) que llega por mail, y el mail info@nodaldevelopments.com visible en el sitio.
 - Idiomas: español e inglés (botón ES/EN; el español está en el HTML y el inglés en `public/js/i18n.js`).
 - Dominio: **nodaldevelopments.com**, comprado en Hostinger.
 - Hosting: **Hostinger, plan Business** de Mateo, como app Node.js (`npm start` → `server.js`) conectada al repo de GitHub `Mateocataldo/nodal-sitio`. El plan Business vence el 2026-11-22: recordarle renovarlo. En ese plan también está su otro sitio, wicklowtecdevelopment.com. Netlify quedó como prueba anterior y no se usa.

@@ -136,12 +136,12 @@ function copiarMail() {
   if (!boton) return;
   boton.addEventListener("click", async () => {
     try {
-      await navigator.clipboard.writeText("mcataldo@nodaldevelopments.com");
+      await navigator.clipboard.writeText("info@nodaldevelopments.com");
       boton.textContent = t("copiado");
       boton.classList.add("copiado");
       setTimeout(() => { boton.textContent = t("copiar"); boton.classList.remove("copiado"); }, 2000);
     } catch {
-      window.location.href = "mailto:mcataldo@nodaldevelopments.com";
+      window.location.href = "mailto:info@nodaldevelopments.com";
     }
   });
 }
